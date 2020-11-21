@@ -56,7 +56,7 @@ class _HomeState extends State<Home> {
         appBar: AppBar(
           title: Text("Calculadora de IMC"),
           centerTitle: true,
-          backgroundColor: Colors.green,
+          backgroundColor: Colors.deepPurple,
           actions: [
             IconButton(
               icon: Icon(Icons.refresh),
@@ -75,19 +75,19 @@ class _HomeState extends State<Home> {
                 Icon(
                   Icons.person_outline,
                   size: 120.0,
-                  color: Colors.green,
+                  color: Colors.deepPurple,
                 ),
                 TextFormField(
                   keyboardType: TextInputType.number,
                   decoration: InputDecoration(
                     labelText: "Peso (kg)",
                     labelStyle: TextStyle(
-                      color: Colors.green,
+                      color: Colors.deepPurple,
                     ),
                   ),
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    color: Colors.green,
+                    color: Colors.deepPurple,
                     fontSize: 25.0,
                   ),
                   controller: weightController,
@@ -102,12 +102,12 @@ class _HomeState extends State<Home> {
                   decoration: InputDecoration(
                     labelText: "Altura (cm)",
                     labelStyle: TextStyle(
-                      color: Colors.green,
+                      color: Colors.deepPurple,
                     ),
                   ),
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    color: Colors.green,
+                    color: Colors.deepPurple,
                     fontSize: 25.0,
                   ),
                   controller: heightController,
@@ -134,7 +134,7 @@ class _HomeState extends State<Home> {
                           fontSize: 25.0,
                         ),
                       ),
-                      color: Colors.green,
+                      color: Colors.deepPurple,
                     ),
                   ),
                 ),
@@ -142,7 +142,7 @@ class _HomeState extends State<Home> {
                   _infoText,
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    color: Colors.green,
+                    color: Colors.deepPurple,
                     fontSize: 25.0,
                   ),
                 ),
